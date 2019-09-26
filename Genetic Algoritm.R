@@ -203,5 +203,3 @@ lines(Avg_fitness~Generation, col="red")
 lines(Worst_fitness~Generation, col="gray")
 legend("topleft",c("Best_fitness","Avg_fitness","Worst_fitness"), col=c("blue","red","gray"), y.intersp=1.5,lty=1:1, cex=0.8)
 title(paste0("Population ",population,"  Chromosome Length ",Gene_length))
-
-setwd("E:/School stuffs/¦Û¶Ç¼i¾ú/Gen AG")
